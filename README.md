@@ -6,8 +6,8 @@
 
 | 环境变量                 | 用途             | 示例                     | 简单说明                               |
 | -------------------- | -------------- | ---------------------- | ---------------------------------- |
-| `CAPTCHA_SECRET_KEY` | 后端验证 Turnstile | `0x3...FF`             | 用来验证用户是否通过了验证码，秘密不要泄露              |
-| `CAPTCHA_SITE_KEY`   | 前端展示 Turnstile | `3x0...FF`             | 网页上显示验证码需要用的 Key                   |
+| `CAPTCHA_SECRET_KEY` | 后端验证 Turnstile | `0x4AAAAADRkL7xbwPXxsEB73cwu1_WDY`             | 用来验证用户是否通过了验证码，秘密不要泄露              |
+| `CAPTCHA_SITE_KEY`   | 前端展示 Turnstile | `0x4AAAAADREliOHXkLaV`             | 网页上显示验证码需要用的 Key                   |
 | `BOT_USERNAME`       | 识别你的 Bot       | `my_cool_bot`          | 你的 Telegram 机器人名字（不带 `@`）          |
 | `VERIFY_SECRET`      | 签名验证           | `u0zcgbzN4vYJpEmzs0yR` | 两个 Worker 共用的密钥，用来防止数据被篡改 **必须一致** |
 
